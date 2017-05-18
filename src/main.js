@@ -5,6 +5,7 @@ import Apple from './components/apple'
 import Banana from './components/banana'
 
 Vue.use(VRouter)
+
 let router = new VRouter({
   mode:'history',
   router: [
@@ -24,5 +25,5 @@ new Vue({
   el:'#app',
   router,
   template:'<App/>',
-  components:{App}
+  component:{App}
 })

@@ -1,13 +1,17 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
     <router-view></router-view>
+    <router-link :to={path:'apple'}>to apple</router-link>
+    <router-link :to={path:'banana'}>to banana</router-link>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+  components:{
+    
+  }
 }
 </script>
 
